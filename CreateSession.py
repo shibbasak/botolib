@@ -4,8 +4,7 @@ from datetime import datetime, timedelta
 import json
 
 session = boto3.Session(profile_name='default')
-dev_s3_client = session.client('s3',region_name='us-east-1')
-
+#dev_s3_client = session.client('s3',region_name='us-east-1')
 glue_job = session.client('glue',region_name='us-east-1')
 
 
